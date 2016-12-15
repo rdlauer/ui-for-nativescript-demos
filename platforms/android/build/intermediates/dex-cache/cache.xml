@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_e5392f67f78800aca559e4ea2e8f1f49ce2ba9fd.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/Common-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="84142bd55d565994b671d3621b090e30039819cb">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Common-2016.3.1118-nstrial-release_c01a359a73bc62f605eaf25ac135f521723f64b3.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_ed5a58d264e10a89c149a467fab21defaef749a2.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/List-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="828987dd9c670cb79adffacb6ab57007a45899a8">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-List-2016.3.1118-nstrial-release_27f1e3496aa14ac749589646f322e176c5074040.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_630ea15766e0e49666197cdd7e0d5d787b6050c8.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-24.2.1_de6ef20853be932b7e1dfb58bb78541287f76887.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-24.2.1_ebfed45ca40d7c94bec6e17ae30ae3456ac90183.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-24.2.1_88c6aafcc62fab77ed7a43f10b2c03655d1b576a.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-24.2.1_41a7eef9bca96fe36750f6f939791f0127e7b956.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-24.2.1_81650d6bfa421548b114de69fc3ea7ec54010327.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/Feedback-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="477a9d9bdd6378544ee97fbbf5ab41770193cc72">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Feedback-2016.3.1118-nstrial-release_d0d5b84e9cb934a984d5113b41946f4d048521f0.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/uifornativescriptdemos/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="791326bdf152dc35a200aea2938d5e5f2af0c81a">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/uifornativescriptdemos-runtime-unspecified_9b2210987648e83e51444f497eae035f273e6742.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-24.2.1_9f749cc34c2633fffdb1c57c6013f0822176ac91.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/Chart-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="ed49f4544e55e5a2238b27afb6dcabac135e6bdb">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Chart-2016.3.1118-nstrial-release_86e028a41a96402963fb056525be007ba3f00235.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_a8701d1bba63375d91078ff3bc786e26fdbb7f75.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-24.2.1_7af6b3714dbe84707f57855a786ac2dd98e2f9af.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-24.2.1_d2d7d62401a3d0c8b48d8fc02533f9acfcb5a91d.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="9eec987a0056adc79d607b32e7e1c41997a434a7">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_fc199b571ded502ec30cb0ff50021ccd02383eff.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-24.2.1_195ada9068f9c1a1acb790e461ab803f3bb33f21.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-24.2.1_29344068cb4e9fb0e4ff01f9f0acc2950195c57e.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/Input-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="30f8d7d590abd937a1b1f493a02125c4fa6faf20">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Input-2016.3.1118-nstrial-release_ba59eca1f91a923b63aa8ad16b8ca4868b8441f4.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/uifornativescriptdemos/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fea98d375ec6edba3b9192dfecb16864c8c1fb10">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/binding-generator_e59951637d42f75e92989c99d7e9d58f9f749bb0.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-24.2.1_6aaa02d91e07fa96ef5e4fd8b315934a839bc6ab.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/Primitives-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d9f7456870b1aad028626449722574912eda8d6d">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Primitives-2016.3.1118-nstrial-release_9bf8be97a2555f0f86738e9ebe7bf2297851c1b6.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-24.2.1_3ce3094454b38dcc1e451166c481a94ff36bba7a.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-24.2.1_41b1d42586a31e0e1a1fb030737dc2eaffe8818f.jar" />
+    </item>
+    <item
+        jar="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/exploded-aar/Data-2016.3.1118-nstrial-release/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e4a361cc1909daf1b6c2107386bb1573fd2b988a">
+        <dex dex="/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Data-2016.3.1118-nstrial-release_b76318dfd1550f43b4642cdea0a3c29efd6d7671.jar" />
+    </item>
+
+</items>
