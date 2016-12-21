@@ -2,11 +2,19 @@
 
 	<ActionBar title="RadListView Demo" class="action-bar" />
 
-	<lv:RadListView id="listview" items="{{ items }}" class="list-group" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
+<!--id="listview" swipeActions="true" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated" -->
+
+	<lv:RadListView id="listview" items="{{ items }}" class="list-group" swipeActions="true" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
 		<lv:RadListView.listViewLayout>
-			<lv:ListViewLinearLayout scrollDirection="Vertical" itemInsertAnimation="Fade" itemDeleteAnimation="Fade" />
+			<!--<lv:ListViewLinearLayout scrollDirection="Vertical"/>-->
+			<!--<lv:ListViewGridLayout scrollDirection="Vertical" itemHeight="100" spanCount="2"/>-->
+			<lv:ListViewLinearLayout scrollDirection="Vertical" itemInsertAnimation="Slide" itemDeleteAnimation="Slide" />
 		</lv:RadListView.listViewLayout>
 		<lv:RadListView.itemTemplate>
+			<!--<StackLayout class="list-group-item">
+				<Label text="{{ itemName }}" class="list-group-item-heading" />
+				<Label text="{{ itemDesc }}" textWrap="true" class="list-group-item-text" />
+			</StackLayout>-->
 			<GridLayout class="list-group-item" rows="auto" columns="auto, *">
 				<Image row="0" col="0" src="{{ itemImage }}" class="thumb img-rounded" />
 				<StackLayout row="0" col="1" >
@@ -15,6 +23,18 @@
 				</StackLayout>
 			</GridLayout>
 		</lv:RadListView.itemTemplate>
+
+
+		<lv:RadListView.itemSwipeTemplate>
+			<GridLayout columns="auto, *, auto">
+				<StackLayout col="0" class="save-btn" tap="onLeftSwipe" orientation="horizontal">
+					<Label text="Save" verticalAlignment="center" horizontalAlignment="center"/>
+				</StackLayout>
+				<StackLayout col="2" class="delete-btn" tap="onRightSwipe" orientation="horizontal">
+					<Label text="Delete" verticalAlignment="center" horizontalAlignment="center" />
+				</StackLayout>
+			</GridLayout>
+		</lv:RadListView.itemSwipeTemplate>
 	</lv:RadListView>
 
 </Page>
