@@ -1,116 +1,169 @@
-clang version 3.9.0 (tags/RELEASE_390/final)
-Target: i386-apple-darwin16.1.0
+clang version 4.0.0 (tags/RELEASE_400/final)
+Target: i386-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator/include" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal" "-F/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator" "-F/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal/" "-F/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "301.1" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/4.0.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator/include" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/TKLiveSync/include" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
-ignoring nonexistent directory "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator/include"
-ignoring nonexistent directory "../../lib/iOS"
-ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/Library/Frameworks"
 #include "..." search starts here:
 #include <...> search starts here:
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator (framework directory)
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal (framework directory)
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS (framework directory)
- ../lib/clang/3.9.0/include
- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/include
- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/System/Library/Frameworks (framework directory)
- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/Library/Frameworks (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/TKLiveSync/include
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ ../lib/clang/4.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks (framework directory)
 End of search list.
-clang version 3.9.0 (tags/RELEASE_390/final)
-Target: i386-apple-darwin16.1.0
+clang version 4.0.0 (tags/RELEASE_400/final)
+Target: i386-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator/include" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal" "-F/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator" "-F/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal/" "-F/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "301.1" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/4.0.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator/include" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal" "-I" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/TKLiveSync/include" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios" "-F/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
-clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.1.0
-ignoring nonexistent directory "/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator/include"
-ignoring nonexistent directory "../../lib/iOS"
-ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/local/include"
+clang -cc1 version 4.0.0 based upon LLVM 4.0.0 default target x86_64-apple-darwin16.7.0
+ignoring nonexistent directory "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/Library/Frameworks"
 #include "..." search starts here:
 #include <...> search starts here:
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/build/emulator (framework directory)
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/internal (framework directory)
- /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS (framework directory)
- ../lib/clang/3.9.0/include
- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/include
- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/System/Library/Frameworks (framework directory)
- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/Library/Frameworks (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal/TKLiveSync/include
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/build/emulator (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/internal (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios (framework directory)
+ /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ ../lib/clang/4.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks (framework directory)
 End of search list.
-In file included from umbrella.h:600:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TelerikAppFeedback.h:20:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedback.h:8:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:23:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+In file included from umbrella.h:498:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.h:12:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreML.framework/Headers/MLFeatureDescription.h:41:12: error: attributes may not be specified on a category
+@interface MLFeatureDescription (MLFeatureValueConstraints)
+           ^
+In file included from umbrella.h:559:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TelerikAppFeedback.h:20:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedback.h:8:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:23:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString* feedbackSentAlertTitle;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:23:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:28:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:23:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:28:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString* feedbackSentAlertText;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:28:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:33:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:28:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:33:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString* feedbackTitle;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:33:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:38:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:33:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:38:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString* feedbackMenuSendCaption;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:38:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:43:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:38:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:43:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString* feedbackMenuSettingsCaption;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:43:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:48:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:43:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:48:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString* feedbackMenuMyFeedbackCaption;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:48:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:699:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TelerikUI.h:77:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework/Headers/TKFeedbackSettings.h:48:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:621:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/message.h:202:1: warning: incompatible redeclaration of library function 'objc_msgSend_fpret' [-Wincompatible-library-redeclaration]
+objc_msgSend_fpret(id _Nullable self, SEL _Nonnull op, ...)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/message.h:202:1: note: 'objc_msgSend_fpret' is a builtin with type 'long double (id, SEL, ...)'
+In file included from umbrella.h:643:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FileProviderUI.h:11:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/FileProviderUI.framework/Headers/FPUIActionExtensionViewController.h:9:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/FileProvider.framework/Headers/FileProvider.h:8:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderDomain.h:71:12: error: attributes may not be specified on a category
+@interface NSFileProviderExtension (NSFileProviderDomain)
+           ^
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:47:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKChartData.h:5:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) TKRange * __nonnull zoomRange;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:699:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TelerikUI.h:239:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKDataSource.h:12:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:84:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:215:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarMonthPresenterStyle.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) UIColor *popoverColor;
+^
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarMonthPresenterStyle.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:229:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsView.h:8:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:43:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic, nullable) UIColor * labelTextColor;
+^
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:43:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:58:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic, nullable) UIColor * separatorColor;
+^
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:58:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:253:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataSource.h:12:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:85:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property(nonatomic, nonnull) TKAutoCompleteCoverView *cover;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:84:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:699:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TelerikUI.h:270:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKEntityProperty.h:88:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:85:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:284:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityProperty.h:96:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString *groupName;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKEntityProperty.h:88:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:699:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TelerikUI.h:274:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKDataFormEditor.h:83:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityProperty.h:96:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:288:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormEditor.h:106:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic, nullable) id value;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKDataFormEditor.h:83:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:699:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TelerikUI.h:296:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormEditor.h:106:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:312:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) id<TKLayout> layout;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:699:
-In file included from /Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TelerikUI.h:357:
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:319:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormAutoCompleteInlineEditor.h:22:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic, nonnull) TKAutoCompleteTextView *autoCompleteView;
+^
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormAutoCompleteInlineEditor.h:22:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:333:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormRegExValidator.h:12:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSString* regEx;
+^
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormRegExValidator.h:12:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:650:
+In file included from /Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:378:
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSNumber *row;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:92:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:92:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSNumber *column;
 ^
-/Users/rob/Documents/apps/ui-for-nativescript-demos/platforms/ios/../../lib/iOS/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:92:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:731:
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/include/os/log.h:35:2: error: using os/log.h requires Xcode 8 or later
-#error using os/log.h requires Xcode 8 or later
- ^
-26 warnings and 1 error generated.
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:92:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:97:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property (nonatomic) NSNumber *index;
+^
+/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/ios/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:97:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:682:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h:46:10: fatal error: 'xpc/xpc.h' file not found
+#include <xpc/xpc.h>
+         ^~~~~~~~~~~
+39 warnings and 3 errors generated.

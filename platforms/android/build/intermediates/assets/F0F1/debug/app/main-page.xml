@@ -4,7 +4,7 @@
 
 	<lv:RadListView id="listview" items="{{ items }}" class="list-group" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
 		<lv:RadListView.listViewLayout>
-			<lv:ListViewLinearLayout scrollDirection="Vertical" itemInsertAnimation="Fade" itemDeleteAnimation="Fade" />
+			<lv:ListViewLinearLayout scrollDirection="Vertical"/>
 		</lv:RadListView.listViewLayout>
 		<lv:RadListView.itemTemplate>
 			<GridLayout class="list-group-item" rows="auto" columns="auto, *">

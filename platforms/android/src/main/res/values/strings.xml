@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">uifornativescriptdemos</string>
-    <string name="title_activity_kimera">uifornativescriptdemos</string>
+    <string name="app_name">uifornativescriptlistview</string>
+    <string name="title_activity_kimera">uifornativescriptlistview</string>
 </resources>

@@ -15,7 +15,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/listItemTextColor"
             android:textSize="16sp"
             android:id="@+id/suggestion_text"
             android:layout_marginLeft="5dp" />

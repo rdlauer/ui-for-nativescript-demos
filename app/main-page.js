@@ -67,15 +67,15 @@ exports.pageLoaded = function(args) {
 
 	pageData.set("items", items);
 
-	setTimeout(function() {
-		items.push(
-				{
-					itemName: "LCD Soundsystem",
-					itemDesc: "This is Happening",
-					itemImage: "~/images/lcd-soundsystem.png"
-				}
-		);
-	}, 2000);
+	// setTimeout(function() {
+	// 	items.push(
+	// 			{
+	// 				itemName: "LCD Soundsystem",
+	// 				itemDesc: "This is Happening",
+	// 				itemImage: "~/images/lcd-soundsystem.png"
+	// 			}
+	// 	);
+	// }, 2000);
 };
 
 exports.pullToRefreshInitiated = function() {
