@@ -56,12 +56,12 @@
         "source": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1003-dev-release/res/drawable-mdpi-v4/ic_token_remove_pressed.png"
     },
     {
-        "merged": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-mdpi-v4/ic_expand_dataform_group.png",
-        "source": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1003-dev-release/res/drawable-mdpi-v4/ic_expand_dataform_group.png"
-    },
-    {
         "merged": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-mdpi-v4/ic_expand_dataform_group.png",
+        "source": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1003-dev-release/res/drawable-mdpi-v4/ic_expand_dataform_group.png"
     },
     {
         "merged": "/Users/rob/Documents/apps/ui-for-nativescript-listview/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
