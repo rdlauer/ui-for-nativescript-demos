@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui-pro/listview" loaded="pageLoaded">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
 
 	<ActionBar title="RadListView Demo" class="action-bar" />
 
